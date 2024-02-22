@@ -2,8 +2,8 @@
   "vendor": "itglobers",
   "name": "whatsapp-button",
   "version": "0.0.1",
-  "title": "Whatsapp button",
-  "description": "Botón de un componente para usar Whatsapp, el cual recibirá tres parametros logo, teléfono y mensaje",
+  "title": "Whatsapp Button",
+  "description": "Notón de un component para usar en Whatsapp, el cual recibirá tres parametros, logo, teléfono y mensaje",
   "builders": {
     "react": "3.x",
     "messages": "1.x",

@@ -1,4 +1,4 @@
-# EJEMPLO-DE-WHATSAPP-BUTTON
+# EXAMPLE-WHATSAPP-BUTTON
 
 <!-- DOCS-IGNORE:start -->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
@@ -8,40 +8,41 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <!-- DOCS-IGNORE:end -->
 
-Cambiar lenguaje de README a [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/FelCer/vtex-whatsapp-button/blob/main/docs/README.en.md)
+Change language from README to [![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/FelCer/vtex-whatsapp-button/blob/main/docs/README.md)
 
-Esta aplicación sirve para crear un botón de whatsapp
+This application is used to create a whatsapp-button 
 <br>
 
-## Implementación
+## Implementation
 
-1. Importar `{{vendor}}.whatsapp-button` en el archivo `manifest.json` del tema de IO.
+1. Import `{{vendor}}.whatsapp-button` into the IO theme's `manifest.json` file.
 
 ```
   "dependencies": {
-    // Validar la versión que se encuentra la aplicación.
+    // Validate the version that the application is found.
     "{{vendor}}.whatsapp-button": "0.x",
   }
+
 ```
 
-## Ejemplo de uso
+## Example use
 
-![Media Placeholder](./assets/example_use.png 'Imagen de ejemplo de uso')
+![Media Placeholder](./assets/example_use.png 'image of example use')
 
-## Componentes disponibles
+## Available components
 
 - `whatsapp-button`
   <br>
 
-## Componente `whatsapp-button`
+## Component `whatsapp-button`
 
-Este componente sirve para crear una grilla con varias opciones visuales
+This component is used to create a whatsapp-button
 
 <!-- DOCS-IGNORE:start -->
 
-## Colaboradores ✨
+## Contributors ✨
 
-Gracias a estas maravillosas personas: ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+Thanks goes to these wonderful people: ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <table>
   <tr>

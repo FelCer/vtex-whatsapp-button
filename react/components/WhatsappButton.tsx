@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import PropTypes from 'prop-types'
 
 type Props = {
@@ -10,13 +10,14 @@ type Props = {
 }
 
 const WhatsappButton = ({ logo, phone, message, width, height }: Props) => {
-    const formatMessage = message.replace(/ /g, "%20");
-    return <>
-        <div className='fixed bottom-2 right-2 flex flexColumn z-3'>
+    const formatMessage = message.replace(/ /g, "%20")
+    return (
+        <div className="fixed bottom-2 right-2 flex flexColumn z-3">
             <a
                 href={`https://wa.me/${phone}?text=${formatMessage}`}
-                target='_blank'
-                rel='noreferrer noopener'>
+                target="_blank"
+                rel="noreferrer noopener"
+            >
                 <img
                     src={logo}
                     alt={message}
@@ -25,7 +26,7 @@ const WhatsappButton = ({ logo, phone, message, width, height }: Props) => {
                 />
             </a>
         </div>
-    </>
+    )
 }
 
 WhatsappButton.propTypes = {
@@ -38,14 +39,14 @@ WhatsappButton.propTypes = {
 
 WhatsappButton.defaultProps = {
     logo: "logo.png",
-    phone: "3112556633",
-    message: "Hola desde whatsapp",
-    width: 80,
-    height: 80
+    phone: "3203205566",
+    message: "Hola desde el componente directamente",
+    width: 100,
+    height: 100
 }
 
 WhatsappButton.schema = {
-    title: "Botón de Whatsapp",
+    title: "Botón de whatsapp",
     type: "object",
     properties: {
         logo: {
@@ -69,16 +70,16 @@ WhatsappButton.schema = {
             }
         },
         width: {
-            title: "Ancho de logo",
-            type: "number",
-            description: "Agrega por favor, el ancho de el logo"
+            title: "Logo de Whatsapp",
+            type: "string",
+            description: "Agrega por favor, el ancho del logo",
         },
         height: {
-            title: "Alto de logo",
-            type: "number",
-            description: "Agrega por favor, el alto de el logo"
+            title: "Logo de Whatsapp",
+            type: "string",
+            description: "Agrega por favor, el alto del logo",
         }
     }
 }
 
-export default WhatsappButton
+export default WhatsappButton;
